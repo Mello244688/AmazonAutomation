@@ -1,7 +1,7 @@
 from Resources.Browser import Browser
 
 amazon_keyring = {
-    "username": "[Enter Amazon Username]",
+    "username": "test",
     "service_name": "amazon"
 }
 
