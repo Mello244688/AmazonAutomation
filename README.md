@@ -6,7 +6,7 @@ install necessary packages and setup keyring to store your amazon password
 ```shell
 pip install -r .\Configs\requirements.txt
 ```
-###Using keyring to store your amazon password
+### Using keyring to store your amazon password
 
 1) you can either create a generic credential in windows credential manager with a network address of
 amazon and your amazon username
@@ -30,6 +30,6 @@ amazon_keyring = {
 
 amazon_urls = {
     "signin": "https://www.amazon.com/gp/sign-in.html",
-    "soy_sauce": "https://www.amazon.com/Kikkoman-Lite-Soy-Sauce-Dispenser/dp/B00KPSPP48/ref=sr_1_9?dchild=1&keywords=soy_sauce&qid=1619588475&sr=8-9",
+    "soy_sauce": "https://amzn.to/331XIra",
 }
 ```
