@@ -18,7 +18,7 @@ def main():
     login(locators, LoginPage(driver))
 
     # check for product arg and make sure the key is in the dict
-    if len(sys.argv) >= 1 and cfg.amazon_urls.get(sys.argv[1]) is not None:
+    if len(sys.argv) > 1 and cfg.amazon_urls.get(sys.argv[1]) is not None:
         product = cfg.amazon_urls.get(sys.argv[1])
     else:
         product = cfg.amazon_urls["soy_sauce"]
