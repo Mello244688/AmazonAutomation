@@ -1,3 +1,0 @@
-webdriver_manager==3.4.0
-keyring==23.0.1
-selenium==3.141.0
