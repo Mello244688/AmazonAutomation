@@ -1,6 +1,6 @@
-#Amazon Automation
+# Amazon Automation
 
-##First time use:
+## First time use:
 install necessary packages and setup keyring to store your amazon password
 
 ```shell
@@ -18,7 +18,7 @@ import keyring
 keyring.set_password("amazon", "username", "password")
 ```
 
-##config.py
+## config.py
 
 Stores the amazon username and service name used for keyring, as well as useful urls
 
