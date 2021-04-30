@@ -21,3 +21,6 @@ class Locators:
     # checkout locators
     CHECKOUT_PLACE_ORDER_BUTTON = (By.NAME, "placeYourOrder1")
     CHECKOUT_CONFIRMATION_STATUS = (By.ID, "widget-purchaseConfirmationStatus")
+
+    # ad locators
+    AOD_CLOSE = (By.ID, "aod-close")
